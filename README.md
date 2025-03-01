@@ -27,8 +27,8 @@ This was then fed to an Ollama Local LLM. The screenshot for the flow is given b
  - For the ability to store chat memory, the Astra DB Chat Memory component was used to create an Astra DB Vector database to store users’ chats which can be accessed later (based on the unique Session ID passed for every chat)
  - For the ability to have conversations with different users, the ID Generator component was used to create a unique Session ID for each user chat. This enables users to create a new chat and go back to it whenever they like, based on the Session ID
 
-The screenshot for the AstraDB Dashboard is given below - 
-![ChatMemory-RAGApplication-AstraDB](ChatMemory-RAGApplication-AstraDB.png)
-
 The screenshot for the flow is given below –
 ![ChatMemory-RAGApplication](ChatMemory-RAGApplication.png)
+
+The screenshot for the AstraDB Dashboard is given below - 
+![ChatMemory-RAGApplication-AstraDB](ChatMemory-RAGApplication-AstraDB.png)
